@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    color: white;
+}
+.div2{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+#username{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 200px;
+    font-size: 20px;
+}
+#address{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 200px;
+    font-size: 20px;
+}
+#phone{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 200px;
+    font-size: 20px;
+}
+#email{
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    width: 200px;
+    font-size: 20px;
+}
+#submit{
+    background: none;
+    border: 1px solid white;
+    width: 180px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+.radio{
+    margin-top: 10px;
+}
+#username,#email,#phone,#address{
+    padding: 5px;
+    color: white;
+}
+#course{
+    margin-top: 10px;
+    width: 220px;
+    height: 30px;
+}
+/* #btn_home{
+    background: none;
+    border: 1px solid white;
+    width: 180px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+} */
+H1{
+    border: 1px solid white;
+}
+#home{
+    background: none;
+    border: 1px solid white;
+    width: 180px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}

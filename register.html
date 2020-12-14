@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" href="register.css">
+        <script src="register.js"></script>
+    </head>
+    <body>
+        <form action="db.php" method="post">
+        <div class="div2">
+            <table>
+                <tr>
+                    <td>
+                        <h1 id="regsiterH1">Registration</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input autocomplete="off" type="text" name="name" id="username" placeholder="Username">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input autocomplete="off" type="text" name="address" id="address" placeholder="Address">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input autocomplete="off" type="email" name="email" id="email" placeholder="Email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input autocomplete="off" type="phone" name="phone" id="phone" placeholder="Phone">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="radio" name="gender" value="m" id="" class="radio">Male
+                        <input type="radio" name="gender" id="" value="f" class="radio">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <Select id="course" name="course">
+                            <option value="" hidden >Select Choice</option>
+                            <option value="sewing">Sewing</option>
+                            <option value="stitching">Stitching</option>
+                            <option value="tailoring">Tailoring</option>
+                        </Select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="submit" name="" id="submit" value="Submit">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+    <div>
+        <tr>
+            <td>
+                <button id="home" onclick="home()">Home</button>
+            </td>
+        </tr>
+    </div>
+    </body>
+</html>
